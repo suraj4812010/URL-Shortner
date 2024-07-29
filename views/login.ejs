@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+
+    <h1>Login</h1>
+    <form action="/user/login" method="post">
+        <label for="email">Email</label>
+        <input type="email" name="email" required placeholder="Enter Your Email">
+
+        <label for="password">Password</label>
+        <input type="text" name="password" required placeholder="Enter Your Password">
+
+        <button type="submit">Login</button>
+    </form>
+
+    <h2>Create An Account</h2>
+   <form method="get" action="/signup">
+        <button type="submit">Signup</button>
+   </form>
+
+   
+    
+</body>
+</html>
